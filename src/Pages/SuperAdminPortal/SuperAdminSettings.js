@@ -1,6 +1,6 @@
 import React from 'react'
-import SASidebar from '../Components/SuperAdmin/SASidebar'
-import SAHeader from '../Components/SuperAdmin/SAHeader'
+import SASidebar from '../../Components/SuperAdmin/SASidebar'
+import SAHeader from '../../Components/SuperAdmin/SAHeader'
 
 function SuperAdminSettings() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Confirmation from '../Components/Confirmation';
-import Modal from '../Components/Modal';
+import Confirmation from '../../Components/Confirmation';
+import Modal from '../../Components/Modal';
 
 function AdminEmployee() {
     const [employees, setEmployees] = useState([]);

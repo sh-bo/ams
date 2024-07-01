@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Modal from '../Components/Modal';
-import Confirmation from '../Components/Confirmation';
+import Modal from '../../Components/Modal';
+import Confirmation from '../../Components/Confirmation';
 
 function AdminRequests() {
     const [requests, setRequests] = useState([]);

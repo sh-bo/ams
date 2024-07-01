@@ -1,7 +1,7 @@
 import React from 'react'
-import SASidebar from '../Components/SuperAdmin/SASidebar'
-import SAHeader from '../Components/SuperAdmin/SAHeader'
-import AdminDashboard from '../Data/AdminDashboard'
+import SASidebar from '../../Components/SuperAdmin/SASidebar'
+import SAHeader from '../../Components/SuperAdmin/SAHeader'
+import AdminDashboard from '../../Data/SuperAdminData/AdminDashboard'
 
 function SuperAdminDashboard() {
   return (

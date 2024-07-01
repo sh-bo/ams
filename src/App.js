@@ -4,14 +4,14 @@ import Login from './Auth/Login';
 import RegisterEmployee from './Auth/RegisterEmployee';
 import RegisterVendor from './Auth/RegisterVendor';
 import Home from './Pages/Home';
-import SuperAdminDashboard from './Pages/SuperAdminDashboard';
-import SuperAdminUsers from './Pages/SuperAdminUsers';
-import SuperAdminEmployees from './Pages/SuperAdminEmployees';
-import SuperAdminVendors from './Pages/SuperAdminVendors';
-import SuperAdminAsset from './Pages/SuperAdminAsset';
-import SuperAdminOrder from './Pages/SuperAdminOrder';
-import SuperAdminRequest from './Pages/SuperAdminRequest';
-import SuperAdminSettings from './Pages/SuperAdminSettings';
+import SuperAdminDashboard from './Pages/SuperAdminPortal/SuperAdminDashboard';
+import SuperAdminUsers from './Pages/SuperAdminPortal/SuperAdminUsers';
+import SuperAdminEmployees from './Pages/SuperAdminPortal/SuperAdminEmployees';
+import SuperAdminVendors from './Pages/SuperAdminPortal/SuperAdminVendors';
+import SuperAdminAsset from './Pages/SuperAdminPortal/SuperAdminAsset';
+import SuperAdminOrder from './Pages/SuperAdminPortal/SuperAdminOrder';
+import SuperAdminRequest from './Pages/SuperAdminPortal/SuperAdminRequest';
+import SuperAdminSettings from './Pages/SuperAdminPortal/SuperAdminSettings';
 
 function App() {
   return (
