@@ -11,6 +11,7 @@ import SuperAdminVendors from './Pages/SuperAdminVendors';
 import SuperAdminAsset from './Pages/SuperAdminAsset';
 import SuperAdminOrder from './Pages/SuperAdminOrder';
 import SuperAdminRequest from './Pages/SuperAdminRequest';
+import SuperAdminSettings from './Pages/SuperAdminSettings';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/portal/superAdmin/assets' element={<SuperAdminAsset />}/>
           <Route path='/portal/superAdmin/orders' element={<SuperAdminOrder />}/>
           <Route path='/portal/superAdmin/requests' element={<SuperAdminRequest />}/>
+          <Route path='/portal/superAdmin/settings' element={<SuperAdminSettings />}/>
         </Routes>
       </div>
     </BrowserRouter>
