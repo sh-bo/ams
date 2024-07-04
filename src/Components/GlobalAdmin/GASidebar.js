@@ -49,36 +49,36 @@ function GASidebar() {
                         Assigned Vendors
                     </Link>
                     <Link
-                        to="/portal/superAdmin/orders"
+                        to="/portal/globalAdmin/orders"
                         className={`px-3 py-2 rounded-md text-xs font-lg flex items-center ${isActive(
-                            "/portal/superAdmin/orders"
+                            "/portal/globalAdmin/orders"
                         )}`}
                     >
                         <ShoppingCartIcon className="h-4 w-4 mr-3" />
                         Assigned Orders
                     </Link>
                     <Link
-                        to="/portal/superAdmin/employees"
+                        to="/portal/globalAdmin/employees"
                         className={`px-3 py-2 rounded-md text-xs font-lg flex items-center ${isActive(
-                            "/portal/superAdmin/employees"
+                            "/portal/globalAdmin/employees"
                         )}`}
                     >
                         <UsersIcon className="h-4 w-4 mr-3" />
                         Employees
                     </Link>
                     <Link
-                        to="/portal/superAdmin/addEmployee"
+                        to="/portal/globalAdmin/addEmployee"
                         className={`px-3 py-2 rounded-md text-xs font-lg flex items-center ${isActive(
-                            "/portal/superAdmin/addEmployee"
+                            "/portal/globalAdmin/addEmployee"
                         )}`}
                     >
                         <UserAddIcon className="h-4 w-4 mr-3" />
                         Register Employee
                     </Link>
                     <Link
-                        to="/portal/superAdmin/requests"
+                        to="/portal/globalAdmin/requests"
                         className={`px-3 py-2 rounded-md text-xs font-lg flex items-center ${isActive(
-                            "/portal/superAdmin/requests"
+                            "/portal/globalAdmin/requests"
                         )}`}
                     >
                         <TicketIcon className="h-4 w-4 mr-3" />
@@ -89,9 +89,9 @@ function GASidebar() {
             <div>
                 <nav className="flex flex-col space-y-2">
                     <Link
-                        to="/portal/superAdmin/settings"
+                        to="/portal/globalAdmin/settings"
                         className={`px-3 py-2 rounded-md text-xs font-medium flex items-center ${isActive(
-                            "/portal/superAdmin/settings"
+                            "/portal/globalAdmin/settings"
                         )}`}
                     >
                         <CogIcon className="h-4 w-4 mr-3" />

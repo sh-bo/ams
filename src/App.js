@@ -13,6 +13,11 @@ import SuperAdminOrder from './Pages/SuperAdminPortal/SuperAdminOrder';
 import SuperAdminRequest from './Pages/SuperAdminPortal/SuperAdminRequest';
 import SuperAdminSettings from './Pages/SuperAdminPortal/SuperAdminSettings';
 import GlobalAdminDashboard from './Pages/GlobalAdminPortal/GlobalAdminDashboard';
+import GlobalAdminVendor from './Pages/GlobalAdminPortal/GlobalAdminVendor';
+import GlobalAdminOrder from './Pages/GlobalAdminPortal/GlobalAdminOrder';
+import GlobalAdminEmployees from './Pages/GlobalAdminPortal/GlobalAdminEmployees';
+import GlobalAdminAddEmployees from './Pages/GlobalAdminPortal/GlobalAdminAddEmployees';
+import GlobalAdminRequest from './Pages/GlobalAdminPortal/GlobalAdminRequest';
 
 function App() {
   return (
@@ -32,6 +37,11 @@ function App() {
           <Route path='/portal/superAdmin/requests' element={<SuperAdminRequest />}/>
           <Route path='/portal/superAdmin/settings' element={<SuperAdminSettings />}/>
           <Route path='/portal/globalAdmin/dashboard' element={<GlobalAdminDashboard />}/>
+          <Route path='/portal/globalAdmin/vendors' element={<GlobalAdminVendor />}/>
+          <Route path='/portal/globalAdmin/orders' element={<GlobalAdminOrder />}/>
+          <Route path='/portal/globalAdmin/employees' element={<GlobalAdminEmployees />}/>
+          <Route path='/portal/globalAdmin/addEmployee' element={<GlobalAdminAddEmployees />}/>
+          <Route path='/portal/globalAdmin/requests' element={<GlobalAdminRequest />}/>
         </Routes>
       </div>
     </BrowserRouter>
