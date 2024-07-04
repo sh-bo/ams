@@ -82,7 +82,7 @@ function GASidebar() {
                         )}`}
                     >
                         <TicketIcon className="h-4 w-4 mr-3" />
-                        Requests
+                        Assigned Requests
                     </Link>
                 </nav>
             </div>
