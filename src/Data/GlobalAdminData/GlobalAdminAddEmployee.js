@@ -121,7 +121,7 @@ function GlobalAdminAddEmployee() {
               </label>
               <input
                 type="text"
-                placeholder="Employee Location"
+                placeholder="India"
                 className="w-full text-black py-2 my-0 shadow-sm ring-1 ring-inset ring-gray-300 bg-white border-0 border-gray-400 outline-none focus:outline-none px-4 rounded-md"
                 value={employeeLocation}
                 onChange={(e) => setEmployeeLocation(e.target.value)}
